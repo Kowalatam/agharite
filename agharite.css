@@ -246,7 +246,11 @@ hr {
 }
 
 a {
-  color: black;
+  color: orange;
+}
+
+.btn {
+  background-color: #ffa500c9;
 }
 
 form span {
@@ -256,8 +260,11 @@ form span {
 footer {
 	margin-top: 20px;
 	background-color: black;
-	color: white;
 	text-align: center;
+}
+
+.text-muted {
+    color: #fff!important;
 }
 
 
