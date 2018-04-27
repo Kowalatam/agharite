@@ -43,15 +43,15 @@ hr {
     background: orange;
 }
 
+/*#home {
+  margin-bottom: 460px;
+}*/
+
 #landing-header {
   z-index: 1;
   position: relative;
   text-align: center;
   padding-top: 50vh;
-}
-
-.nav, .navbar {
-	font-family: 'Abril Fatface', cursive;
 }
 
 #landing-header h1 {
@@ -86,22 +86,22 @@ hr {
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url(http://omofuomaagharite.com/wp-content/uploads/2018/04/SOLITUDE-1600x1013.jpg) 
+  background-image: url(images/SOLITUDE.jpg) 
 }
 .slideshow li:nth-child(2) { 
-  background-image: url(http://omofuomaagharite.com/wp-content/uploads/2018/04/THE-GATHERING-1600x1010.jpg);
+  background-image: url(images/THE-GATHERING.jpg);
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url(http://omofuomaagharite.com/wp-content/uploads/2018/04/SKIES-MAJESTIC-1600x1200.jpg);
+  background-image: url(images/SKIES-MAJESTIC.jpg);
   animation-delay: 20s; 
 }
 .slideshow li:nth-child(4) { 
-  background-image: url(http://omofuomaagharite.com/wp-content/uploads/2018/04/PROCESS-1600x1200.jpg);
+  background-image: url(images/PROCESS.jpg);
   animation-delay: 30s; 
 }
 .slideshow li:nth-child(5) { 
-  background-image: url(http://omofuomaagharite.com/wp-content/uploads/2018/04/THE-PROCESS-OF-NATURE.jpg);
+  background-image: url(images/THE-PROCESS-OF-NATURE.jpg);
   animation-delay: 40s; 
 }
 
@@ -125,6 +125,14 @@ hr {
 /* Older browser support - .no-cssanimations class added by modernizr */
 .no-cssanimations .slideshow li {
 	opacity: 1;
+}
+
+.nav, .navbar {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ffa500c9;
 }
 
 @media (min-width: 34em) {
@@ -160,9 +168,24 @@ hr {
 }
 
 #gallary {
-	margin-top: 460px;
 	overflow: hidden;
 }
+@media (min-width: 300px) {
+    #gallary {
+      margin-top: 380px; } }
+  @media (min-width: 768px) {
+    #gallary {
+      margin-top: 380px; } }
+  @media (min-width: 992px) {
+    #gallary {
+      margin-top: 380px; } }
+  @media (min-width: 1200px) {
+    #gallary {
+      margin-top: 380px; } }
+  @media (min-width: 1300px) and (max-width: 1824px) {
+    #gallary {
+      margin-top: 390px; } }
+
 
 .gallary-title {
 	margin-bottom: 40px;
@@ -177,7 +200,7 @@ hr {
 
 .card-body {
     position: absolute;
-    top: 45%;
+    /*top: 45%;*/
     left: 0;
     width: 100%;
     text-align: center;
@@ -231,7 +254,7 @@ hr {
 
 #contact {
 	margin-top: 100px;
-	width: 50%;
+	/*width: 50%;*/
 }
 
 #contact p {
