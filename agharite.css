@@ -211,7 +211,7 @@ hr {
 #about {
 	margin: 100px auto;
 	padding: 60px;
-	color: orange;
+	color: #ddcfb5;
 	background-color: #000;
 }
 
@@ -234,11 +234,23 @@ hr {
 	width: 50%;
 }
 
+#contact p {
+  text-align: center;
+}
+
 #contact .aligncenter {
     clear: both;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+a {
+  color: black;
+}
+
+form span {
+  padding-right: 5px;
 }
 
 footer {
