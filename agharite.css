@@ -285,12 +285,12 @@ hr {
 	padding-top: 15px;
 }
 
-@media (min-width: 300px) and (max-width: 767px) {
+/*@media (min-width: 300px) and (max-width: 767px) {
   .col-sm-12 {
     padding: 15px 0 !important; }
   .row {
     margin-right: 0;
-    margin-left: 0; } }
+    margin-left: 0; } }*/
 
 
 #contact {
