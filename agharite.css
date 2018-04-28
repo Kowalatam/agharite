@@ -20,9 +20,9 @@
     height: 100vh;
     transition: linear all 1s;
   /* if you don't use delay , background will disapear and transition will start from a white background - you have to set the transition-delay the same as transition time OR more , so there won't be any problems */
-  -webkit-transition-delay: 1s;/* Safari */
-  transition-delay: 1s;
-}*/
+  /*-webkit-transition-delay: 1s;*//* Safari */
+  /*transition-delay: 1s;*/
+/*}*/
 
 /*.main-text h1 {
   position: absolute;
@@ -172,7 +172,7 @@ hr {
 }
 @media (min-width: 300px) {
     #gallary {
-      margin-top: 350px; } }
+      margin-top: 300px; } }
   @media (min-width: 495px) {
     #gallary {
       margin-top: 400px; } }
