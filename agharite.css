@@ -274,9 +274,17 @@ hr {
 	font-family: 'Source Serif Pro', serif;
 }
 
-#about-text {
-	padding-top: 20px;
+.row {
+	padding-top: 15px;
 }
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .col-sm-12 {
+    padding: 15px 0 !important; }
+  .row {
+    margin-right: 0;
+    margin-left: 0; } }
+
 
 #contact {
 	margin-top: 50px;
