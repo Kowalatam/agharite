@@ -1,8 +1,8 @@
--/*.navbar-nav.navbar-center {
+/*.navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
-}*/ /*to center the navbar*/
+} /*to center the navbar*/
 
 /*h1 {
     font-weight: 700;
@@ -19,8 +19,8 @@
     background-position: 50% 50%;
     height: 100vh;
     transition: linear all 1s;
-  /* if you don't use delay , background will disapear and transition will start from a white background - you have to set the transition-delay the same as transition time OR more , so there won't be any problems */
-  -webkit-transition-delay: 1s;/* Safari */
+   if you don't use delay , background will disapear and transition will start from a white background - you have to set the transition-delay the same as transition time OR more , so there won't be any problems 
+  -webkit-transition-delay: 1s; Safari 
   transition-delay: 1s;
 }*/
 
@@ -28,11 +28,11 @@
 /*.navbar {
   position: absolute;
   z-index: 1;
-}*/
-
-.main-text {
-  background-color: #000;
 }
+
+/*.main-text {
+  background-color: #000;
+}*/
 
 hr {
    	width: 50%;
@@ -44,6 +44,7 @@ hr {
   position: relative;
   text-align: center;
   padding-top: 50vh;
+  padding-bottom: 42vh;
 }
 
 #landing-header h1 {
@@ -159,13 +160,10 @@ hr {
     }
 }
 
-#gallary {
-	overflow: hidden;
-}
 /*@media (min-width: 300px) {
     #gallary {
       margin-top: 300px; } }
-  @media (min-width: 495px) {*/
+  @media (min-width: 495px) {
     #gallary {
       margin-top: 400px; } }
   @media (min-width: 768px) {
@@ -179,11 +177,11 @@ hr {
       margin-top: 400px; } }
   @media (min-width: 1300px) and (max-width: 1824px) {
     #gallary {
-      margin-top: 400px; } }
+      margin-top: 400px; } } */
 
 
 .gallary-title {
-	margin-bottom: 40px;
+	margin: 40px auto;
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Abril Fatface', cursive;
