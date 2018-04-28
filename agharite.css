@@ -172,22 +172,22 @@ hr {
 }
 @media (min-width: 300px) {
     #gallary {
-      margin-top: 250px; } }
+      margin-top: 350px; } }
   @media (min-width: 495px) {
     #gallary {
-      margin-top: 320px; } }
+      margin-top: 400px; } }
   @media (min-width: 768px) {
     #gallary {
-      margin-top: 320px; } }
+      margin-top: 400px; } }
   @media (min-width: 992px) {
     #gallary {
-      margin-top: 350px; } }
+      margin-top: 400px; } }
   @media (min-width: 1200px) {
     #gallary {
-      margin-top: 350px; } }
+      margin-top: 400px; } }
   @media (min-width: 1300px) and (max-width: 1824px) {
     #gallary {
-      margin-top: 350px; } }
+      margin-top: 400px; } }
 
 
 .gallary-title {
