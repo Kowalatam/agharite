@@ -172,13 +172,13 @@ hr {
 }
 @media (min-width: 300px) {
     #gallary {
-      margin-top: 300px; } }
+      margin-top: 250px; } }
   @media (min-width: 495px) {
     #gallary {
-      margin-top: 350px; } }
+      margin-top: 320px; } }
   @media (min-width: 768px) {
     #gallary {
-      margin-top: 350px; } }
+      margin-top: 320px; } }
   @media (min-width: 992px) {
     #gallary {
       margin-top: 350px; } }
