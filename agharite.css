@@ -34,23 +34,42 @@
   background-color: #000;
 }*/
 
+
 hr {
    	width: 50%;
     background: orange;
-}
+    margin-bottom: 40px;
+} @media (min-width: 497px) {
+    hr  {
+      margin-bottom: auto; } }
 
 #landing-header {
   z-index: 1;
   position: relative;
   text-align: center;
-  padding-top: 50vh;
-  padding-bottom: 42vh;
-}
+  padding-top: 44vh;
+  padding-bottom: 44vh;
+  /*background-color: #000;*/
+} @media (min-width: 371px) {
+    #landing-header  {
+      padding-top: 50vh;
+      padding-bottom: 43vh; } }
+  /*@media (min-width: 497px) {
+    #landing-header  {
+      padding-top: 50vh;
+      padding-bottom: 4vh; } }*/ 
 
 #landing-header h1 {
   color: #fff;
   font-family: 'Abril Fatface', cursive;
 }
+
+.h1, h1 {
+  font-size: 1.8em;
+} @media (min-width: 497px) {
+    .h1, h1 {
+      font-size: 2.2em; } }
+
 
 .slideshow { 
   position: absolute;
@@ -128,6 +147,10 @@ hr {
     color: #ffa500c9;
 }
 
+.navbar-brand {
+  font-size: 1.05em;
+}
+
 @media (min-width: 34em) {
     .card-columns {
         -webkit-column-count: 1;
@@ -180,12 +203,22 @@ hr {
       margin-top: 400px; } } */
 
 
+
 .gallary-title {
-	margin: 40px auto;
+  margin: 20px auto;
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Abril Fatface', cursive;
-}
+} @media (min-width: 497px) {
+    .gallary-title {
+      margin-top: 25px;
+      margin-bottom: 30px; } } 
+
+.h2, h2 {
+  font-size: 1.5em;
+} @media (min-width: 497px) {
+    .h2, h2 {
+      font-size: 1.8em; } }
 
 .card {
     position: relative;
